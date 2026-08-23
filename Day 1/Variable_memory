@@ -1,0 +1,15 @@
+Variables and memory concept--
+
+- Variable = name that stores a value in memory.
+
+-In python, variables are used to store data that can be referenced and manipulated during program execution.
+
+Ex- x = 10 
+y = 'Hello'
+
+- Python automatically decides the data type.
+
+- variables are references (labels) pointing to memory objects.
+
+- use id() to check memory location:
+  print(id(x))
