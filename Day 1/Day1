@@ -4,3 +4,11 @@ Windows: Go to the official Python website (python.org) and download the latest 
 
 
 Also install VS code and then install extension python
+
+------------------------------------------------------------------------
+
+How python code executes
+- python code runs line by line (interpreter-based)
+- no need to compile manually- interpreter handles it
+- each line is converted into bytecode, then executed by the python virtual machine (PVM)
+- errors stops execution immediately.
