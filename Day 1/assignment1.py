@@ -1,15 +1,23 @@
-# question- print your name 10 times using the * and on every new line
+# # question- print your name 10 times using the * and on every new line
 
-print("Prashant Kashyap " * 10)
+# print("Prashant Kashyap " * 10)
 
-# In above code to make it in every new line we have to use \n
+# # In above code to make it in every new line we have to use \n
 
-print(("Prashant Kashyap " + "\n")*10)
+# print(("Prashant Kashyap " + "\n")*10)
 
-# id() gives the momeory location where the variable points.
+# # id() gives the momeory location where the variable points.
 
-a = 10
-print(id(a))
+# a = 10
+# print(id(a))
 
 
 
+# calculate the area of circle -take daimeter as input
+PI = 3.14
+
+diameter = int(input("Enter the D of the circle: "))
+
+Area = PI * (diameter/2)**2
+
+print("Area is: ", Area)
